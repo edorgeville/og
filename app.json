@@ -8,5 +8,5 @@
           "description": "The URL of the website you want to screenshot.",
           "value": "http://google.com"
         }
-    },
+    }
 }
