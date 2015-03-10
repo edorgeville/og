@@ -1,5 +1,5 @@
 {
-    "name": "OG ---name is too short must at least be 3 characters---",
+    "name": "OG ---must at least be 3 characters---",
     "description": "An OG image generator for your cool website.",
     "repository": "https://github.com/th3m4ri0/og",
     "success_url": "/",
