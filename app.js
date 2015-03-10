@@ -6,8 +6,6 @@ var __dirname = 'public/';
 
 console.log('Configuring...');
 
-var date = new Date();
-
 app.get('/:name', function (req, res, next) {
     res.sendFile(req.params.name, {
         root: __dirname,
@@ -40,7 +38,7 @@ setTimeout(function() {
 
 function getScreenshot(){
     var pageres = new Pageres({delay: 2})
-        .src('erwandorgeville.com', ['1200x700'], {
+        .src(process.env.WEBSITE_URL || 'google.com', ['1200x700'], {
             filename: 'screenshot',
             crop: true
         })
